@@ -1,0 +1,15 @@
+
+.movie-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.movie-card{
+    border: 1px solid red;
+    width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.movie-card img {
+    width: 100%;
+}
