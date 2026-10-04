@@ -10,8 +10,36 @@ body{
 }
 .main-navigation a{
     text-decoration: none;
-    color: #ff0202;
+    color:black;
+    transition: color 2s ease;
 }
+.main-navigation a:hover{
+    color:rgb(243, 17, 17);
+}
+form{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    max-width: 500px;
+}
+.search-controls{
+    display: flex;
+}
+.search-controls input{
+    flex-grow: 1;
+    min-width: 0;
+}
+button{
+    background-color: rgb(255, 173, 50);
+    padding: 3px 10px;
+    border: 2px solid #c3801c;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #fdbd47;
+}
+
 .movie-cards {
     display: flex;
     gap: 20px;
