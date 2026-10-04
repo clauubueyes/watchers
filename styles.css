@@ -55,3 +55,13 @@ button:hover{
 .movie-card img {
     width: 100%;
 }
+
+@media (max-width: 400px) {
+    .main-navigation{
+        flex-wrap: wrap;
+    }
+    .main-navigation a {
+        flex-grow: 1;
+        flex-basis: calc(50% - 10px);
+    }
+}
