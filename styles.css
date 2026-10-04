@@ -21,13 +21,18 @@ form{
     flex-direction: column; 
     width: 100%;
     max-width: 500px;
+    gap: 5px;
 }
 .search-controls{
     display: flex;
+    gap: 3px;
 }
 .search-controls input{
     flex-grow: 1;
     min-width: 0;
+    padding: 8px;
+    border: 1px solid #c3801c;
+    font-family: monospace;
 }
 button{
     background-color: rgb(255, 173, 50);
