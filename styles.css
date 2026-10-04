@@ -47,13 +47,27 @@ button:hover{
     justify-content: center;
 }
 .movie-card{
-    border: 1px solid red;
+    color: #e5e5de;
+    background-color: #161515;
+    border-radius: 8px;
+    box-shadow: 0 5px 8px 1px #0c0d29;
     width: 200px;
-    padding: 20px;
     box-sizing: border-box;
+    transition: transform 0.2s ease, box-shadow 0.4s ease;
+}
+.movie-card:hover{
+    transform: scale(1.05);
+    box-shadow:0 5px 8px 1px #04040e;
 }
 .movie-card img {
+    border-radius: 8px;
     width: 100%;
+}
+.movie-card h3 {
+    margin: 10px 5px 5px;
+}
+.movie-card p {
+    margin: 0px 0px 5px 5px;
 }
 
 @media (max-width: 400px) {
